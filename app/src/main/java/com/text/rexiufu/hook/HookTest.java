@@ -16,6 +16,7 @@ public class HookTest {
             getListenerInfo.setAccessible(true);
             Object listenerInfo = getListenerInfo.invoke(view);
             // 得到 原始的 OnClickListener 对象
+            
             Class<?> listenerInfoClz = Class.forName("android.view.View$ListenerInfo");
             Field mOnClickListener = listenerInfoClz.getDeclaredField("mOnClickListener");
             mOnClickListener.setAccessible(true);
