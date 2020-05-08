@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText">#ffffffff</color>
+    <color name="hintText">#bfffffff</color>
+    <color name="colorPrimary">#de4037</color>
+    <color name="colorPrimaryDark">#de4037</color>
+    <color name="colorAccent">#de4037</color>
+    <!--注册界面提示红色-->
+    <color name="hintRed">#de4037</color>
+    <color name="blue">#1e50a2</color>
+    <color name="pink">#fa7299</color>
+    <color name="turquoise">#008577</color>
+
+    <!-- 日间模式下app背景色 -->
+    <color name="custom_color_app_bg_day">#FFFFFF</color>
+    <!-- 日间模式下app标题栏背景色 -->
+    <color name="custom_color_app_title_layout_bg_day">#FF2F3A4C</color>
+    <!-- 夜间模式下app背景色 -->
+    <color name="custom_color_app_bg_night">#1F1F1F</color>
+    <!-- 夜间模式下app标题栏背景色 -->
+    <color name="custom_color_app_title_layout_bg_night">#FF1D1D1D</color>
+
+    <!-- 用户头像占位drawable背景颜色 -->
+    <color name="custom_color_user_photo_place_holder_bg_day">#29303B</color>
+    <color name="custom_color_user_photo_place_holder_bg_night">#171717</color>
+
+    <color name="select_text_color">#F35A40</color>
+    <color name="un_select_text_color">#ff000000</color>
+    <color name="index_fl_bg_color">#00FFFFFF</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#1e1e1e</color>
+    <color name="yellow">#FFD700</color>
+    <color name="red">#FF4040</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent_black">#7f000000</color>
+    <color name="bar_divider">#B0B4B8</color>
+    <color name="tab_panel_bg">#ffffff</color>
+    <color name="tab_panel_divider">@color/bar_divider</color>
+    <color name="background">#EFEFEF</color>
+    <color name="title_color">#333333</color>
+    <color name="snackbar_action_text_color">#FF00BCD4</color>
+    <color name="title_bg_color">#ff69d25c</color>
+    <color name="gray">#909296</color>
+    <color name="gray_1">#d5d5d5</color>
+
+    <color name="biometricprompt_color_primary">#415FFF</color>
+    <color name="biometricprompt_color_ffffff">#ffffff</color>
+    <color name="biometricprompt_color_333333">#333333</color>
+    <color name="biometricprompt_color_82C785">#82C785</color>
+    <color name="biometricprompt_color_FF5555">#FF5555</color>
+</resources>

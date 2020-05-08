@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am main"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click me!"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Click me!"
+                android:layout_centerInParent="true" />
+
+            <com.text.rexiufu.weight.PasswordInputView
+                android:id="@+id/passwordinput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:padding="1dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:pwv_haveInputBorderColor="@color/colorAccent"
+                app:pwv_pwdStyle="plaintext"
+                app:pwv_radius="10dp"
+                app:pwv_spacing="12dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="RecyclerView"
+                android:textAllCaps="false"
+                android:onClick="RecyclerViewClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="音视频"
+                android:onClick="MediaPlayerClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="ObjectBox"
+                android:textAllCaps="false"
+                android:onClick="ObjectBox" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="DataBinding"
+                android:textAllCaps="false"
+                android:onClick="DataBinding" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="ShortCut"
+                android:textAllCaps="false"
+                android:onClick="ShortCut" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Point"
+                android:textAllCaps="false"
+                android:onClick="Point" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="ChangePic"
+                android:textAllCaps="false"
+                android:onClick="ChangePic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Behavior"
+                android:textAllCaps="false"
+                android:onClick="Behavior" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Behavior1"
+                android:textAllCaps="false"
+                android:onClick="Behavior1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="TextviewActivity"
+                android:textAllCaps="false"
+                android:onClick="TextviewActivity" />
+
+            <Button
+                android:id="@+id/test_aop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Aop"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="指纹"
+                android:textAllCaps="false"
+                android:onClick="zhiwen" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="viewpager"
+                android:textAllCaps="false"
+                android:onClick="viewpager" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="小飞机"
+                android:textAllCaps="false"
+                android:onClick="xiaofeiji" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="roundView"
+                android:textAllCaps="false"
+                android:onClick="roundView" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="输入框"
+                android:textAllCaps="false"
+                android:onClick="shurukuang" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 Yick Xie
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or (at your
+    option) any later version.  See <http://www.fsf.org/copyleft/gpl.txt>.
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+-->
+<resources>
+    <!-- the order here must match the enum entries in VpnType.java -->
+
+    <string-array name="vpn_typesssssss">
+        <item>IKEv1 PSK</item>
+        <item>IKEv1 证书</item>
+    </string-array>
+
+
+    <string-array name="vpn_types">
+        <item>IKEv1 PSK</item>
+        <item>IKEv1 证书</item>
+        <item>IKEv1 XAUTH (用户名/密码)</item>
+        <item>IKEv1 PSK + XAUTH (用户名/密码)</item>
+        <item>IKEv1 证书 + XAUTH (用户名/密码)</item>
+        <item>IKEv2 PSK</item>
+        <item>IKEv2 证书</item>
+        <item>IKEv2 EAP (用户名/密码)</item>
+        <item>IKEv2 PSK + EAP (用户名/密码)</item>
+        <item>IKEv2 证书 + EAP (用户名/密码)</item>
+        <item>IKEv2 EAP-TLS (证书)</item>
+        <item>IKEv2 EAP-TNC (用户名/密码)</item>
+    </string-array>
+
+    <string-array name="ikev1_modes">
+        <item>主模式</item>
+        <item>积极模式</item>
+    </string-array>
+
+    <string-array name="proposals_ike">
+        <item>sm4cbc-sm3-modp1024</item>
+        <item>aes128-sha1-modp1024</item>
+    </string-array>
+
+    <string-array name="proposals_esp">
+        <item>sm4cbc-sm3</item>
+        <item>aes128-sha1</item>
+    </string-array>
+
+    <!-- the order here must match the enum entries in VpnProfile.java -->
+    <string-array name="apps_handling">
+        <item>所有应用程序都使用VPN</item>
+        <item>从VPN中排除选定的应用程序</item>
+        <item>只有选定的应用程序才使用VPN</item>
+    </string-array>
+</resources>

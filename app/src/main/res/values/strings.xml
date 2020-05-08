@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rexiufu</string>
+    <string name="version_add">包含短视频版本号【%1$s】\n 播放器版本号【%2$s】</string>
+
+    <string name="index_bottom_bar_home">首页</string>
+    <string name="index_bottom_bar_dynamic_state">动态</string>
+    <string name="index_bottom_bar_integral">积分</string>
+    <string name="index_bottom_bar_me">我的</string>
+    <string name="fragment_example_string">示例 %1$s</string>
+
+    <string name="fingerprint_recognition">指纹识别</string>
+    <string name="fingerprint_cancel">取消指纹识别</string>
+    <string name="fingerprint_usepwd">密码验证</string>
+    <string name="biometricprompt_finger_add">请先添加指纹</string>
+    <string name="biometricprompt_finger_add_confirm">确认添加</string>
+    <string name="biometricprompt_finger_hw_unavailable">指纹模块不可用</string>
+    <string name="fingerprint_target_act">指纹认证成功，已进入目标页</string>
+</resources>

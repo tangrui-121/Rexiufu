@@ -1,0 +1,2 @@
+className = com.text.rexiufu.fanshe.Student
+methodName = show

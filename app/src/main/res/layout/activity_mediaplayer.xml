@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/fl_group"
+        android:layout_height="200dp">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rel_touch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/view_control"
+                android:layout_width="match_parent"
+                android:layout_height="155dp" />
+
+            <LinearLayout
+                android:id="@+id/lin_control"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true"
+                android:background="#40A8A8A8"
+                android:gravity="center_vertical"
+                android:layout_height="45dp">
+
+                <ImageView
+                    android:id="@+id/img_start"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/icon_start" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/text_schedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="13sp"
+                        android:text="进度" />
+
+                    <ProgressBar
+                        android:id="@+id/pro_schedule"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="1dp"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_height="2dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_allscreen"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/icon_allscreen" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>
